@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+body{
+    background-image: url("1.jpg");
+}
+
+#background{
+    -webkit-filter: blur(0px);
+    height: 100vh;
+}
+
+.mainVideo{
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    width: 40vw;
+    height: 25vw;
+}
+
+#skate{
+    transition: transform .2s;
+    height: auto;
+    width: 17.5%;
+    transform: rotate(-20deg); 
+    top: 17.5%;
+    left: 5%;
+    position: absolute;
+}
+
+#skate:hover{
+    transform:scale(1.5);
+}
+
+#guit{
+    transition: transform .2s;
+    height: auto;
+    width: 15%;
+    bottom: 2.5%;
+    left: 5%;
+    position: absolute;
+}
+
+#guit:hover{
+    transform: scale(1.8);
+}
+
+#viol{
+    transition: transform .2s;
+    height: auto;
+    width: 12.5%;
+    transform: rotate(-90deg);
+    float: right;
+    right: 7.5%;
+    bottom: 7.5%;
+    position: absolute;
+}
+
+#viol:hover{
+    transform: scale(1.3);
+}
+
+#skate_m{
+    height: auto;
+    width: 20%;
+    display: none;
+    position: absolute;
+    left: 18%;
+    top: 8%;
+}   
+
+#guit_m{
+    height: auto;
+    width: 18%;
+    display: none;
+    position: absolute;
+    bottom: 8%;
+    left: 13.5%;
+}
+
+#viol_m{
+    height: auto;
+    width: 15%;
+    position: absolute;
+    bottom: 15%;
+    right: 16%;
+}
+
+.rascals{
+    position: absolute;
+    height: auto;
+    width: 40%;
+    top: 15%;
+    left: 35%;
+}
+
+#slate1{
+    height: auto;
+    width: 8%;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: rotate(15deg);
+    transition: transform .2s;
+}
+
+#slate1:hover{
+    transform:scale(1.5);
+}
+
+#slate2{
+    height: auto;
+    width: 8%;
+    bottom: 5%;
+    left: 33%;
+    transform: rotate(-10deg);
+    transition: transform .2s;
+    position: absolute;
+}
+
+#slate2:hover{
+    transform: scale(1.5);
+}
+
+#slate3{
+    height: auto;
+    width: 8%;
+    position: absolute;
+    transform: rotate(20deg);
+    transition: transform .2s;
+    bottom: 5%;
+    right: 36.5%;
+}
+
+#slate3:hover{
+    transform: scale(1.5);
+}
+
+#music{
+    position: absolute;
+    height: auto;
+    width: 12%;
+
+    top: 7.5%;
+    left: 7.5%;
+    transform: rotate(-14deg);
+}
+
+#project{
+    position: absolute;
+    height: auto;
+    width: 15%;
+
+    bottom: 32.5%;
+    left: 5%;
+    transform: rotate(-7deg);
+}
+
+#cast{
+    position: absolute;
+    height: auto;
+    width: 7.5%;
+    bottom: 35%;
+    right: 10%;
+    transform: rotate(10deg);
+}
+
+#stickers{
+    position: absolute;
+    height: auto;
+    width: 40%;
+
+    top: 4.5%;
+    right: 2%;
+}
+
+.blooperText1{
+    width: 10%;
+    height: auto;
+    position: absolute; 
+    top: 40%;
+    left: 20%;  
+}
+
+.blooperText2{
+    width: 10%;
+    height: auto;
+    position: absolute;
+
+    bottom: 22.5%;
+    left: 32.5%;
+}
+
+.blooperText3{
+    width: 10%;
+    height: auto;
+    position: absolute;
+    
+    bottom: 22.5%;
+    right: 35%;
+}
+
+
+.sub{
+    background-color: #c4302b;
+    border:none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    right: 8%;
+}
+
+.btn{
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 39%;
+    right: 8%;
+}
+
+.btn:hover{
+    background-color: Royalblue;
+}
+
+
+
+#blp1{
+    position: absolute;
+    background-color: #80471C;
+    top: 30%;
+    left: 20%;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.bloop1{
+    justify-content: center;
+}
+
+#blp2{
+    position: absolute;
+    background-color: #80471C;
+    top: 40%;
+    right: 20%;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.bloop2{
+    justify-content: center;
+}
+
+#blp3{
+    position: absolute;
+    background-color: #80471C;
+    top: 40%;
+    right: 30%;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.bloop3{
+    justify-content: center;
+}
+
